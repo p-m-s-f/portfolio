@@ -1,0 +1,9 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    display: grid;
+}
+
+main {
+    width: 80%;
+}
