@@ -1,9 +1,16 @@
 body {
     background-color: #000;
     color: #FFF;
-    display: grid;
+    width: 800px;
+    border: 2px solid #FFF;
+    margin: auto;
 }
 
-main {
-    width: 80%;
+main > article > header {
+    text-align: center;
+}
+
+main > article > p {
+    width: 600px;
+    margin: auto;
 }
