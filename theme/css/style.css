@@ -28,10 +28,10 @@ hgroup > h1 {
 }
 
 hgroup > h1 > a {
+    padding-left: 100px;
     font-family: arial;
     text-decoration: none;
     color: #FFF;
-    text-align: right;
     letter-spacing: 10px;
     display: block;
     width: 800px;
