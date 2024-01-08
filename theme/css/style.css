@@ -8,6 +8,7 @@ body {
     width: 800px;
     border: 2px solid #FFF;
     margin: auto;
+    font-family: calibri;
 }
 
 ul {
@@ -23,19 +24,41 @@ body > header:nth-child(1) > hgroup:nth-child(1) > h1:nth-child(1) {
     margin: 0;
 }
 
+/*//////////*/
+/* NAV BARS */
+/*//////////*/
+
+nav {
+    text-align: center;
+}
+
+nav > ul {
+    padding: 0;
+    font-style: normal;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
 /*//////////////*/
 /* SITE CONTENT */
 /*//////////////*/
 
 main {
-    margin: 0;
+    margin: 0 auto;
 }
 
-main > article > header {
+article {
+    padding: 0 100px;
+}
+
+article > header {
     text-align: center;
 }
 
-main > article > p {
-    width: 600px;
+article > p > img {
+    display: block;
     margin: auto;
+    max-width: 600px;
 }
