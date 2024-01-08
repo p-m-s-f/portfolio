@@ -6,7 +6,6 @@ body {
     background-color: #000;
     color: #FFF;
     width: 800px;
-    border: 2px solid #FFF;
     margin: auto;
     font-family: calibri;
 }
@@ -19,9 +18,28 @@ ul {
 /* SITE HEADER */
 /*/////////////*/
 
+hgroup {
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 10px
+}
 
-body > header:nth-child(1) > hgroup:nth-child(1) > h1:nth-child(1) {
+hgroup > h1 {
     margin: 0;
+}
+
+hgroup > h1 > a {
+    font-family: arial;
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    letter-spacing: 10px;
+    display: block;
+    width: 800px;
+}
+
+#nameBreak {
+    display: block;
+    height: 0;
 }
 
 /*//////////*/
@@ -30,6 +48,7 @@ body > header:nth-child(1) > hgroup:nth-child(1) > h1:nth-child(1) {
 
 nav {
     text-align: center;
+    margin: 15px 0;
 }
 
 nav > ul {
